@@ -1,0 +1,534 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a {
+  font-size: 1.5em;
+  padding: 20px;
+  color: white;
+}
+.content-wrapper {
+  position: relative;
+}
+.big-hero {
+  background-size: contain;
+  background-image: url(../images/four-seasons-dark.jpg);
+  min-height: 100vh;
+  z-index: 1;
+  font-size: 42px;
+  top: 400px;
+  left: 100px;
+  margin: 0;
+  padding: 20px;
+  z-index: 2;
+  color: black;
+}
+
+.section-heading {
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+
+.main1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  max-width: 900px;
+}
+section.winter {
+  border: 2px solid #4f7aa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-content {
+  padding: 1.4em;
+
+  width: 70%;
+}
+.section-image {
+  max-width: 30%;
+
+  display: block;
+  float: left;
+}
+section.spring {
+  border: 2px solid #723660;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-image {
+  margin-right: 50px;
+}
+section.summer {
+  border: 2px solid #579453;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.autumn {
+  border: 2px solid #bb733f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spring .content-wrapper {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #915980;
+  border: 2px solid #723660;
+}
+.autumn .content-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #865836;
+  border: 2px solid #bb733f;
+}
+.winter .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #5d7892;
+  border: 2px solid #4f7aa5;
+}
+.summer .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: rgba(131, 184, 140, 0.333);
+  border: 2px solid #579453;
+}
+section {
+  margin: 20px 20px 20px 20px;
+}
+.winter .section-heading {
+  color: white;
+  background-color: #4f7aa5;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.spring .section-heading {
+  color: white;
+  background-color: #723660;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section.spring {
+  border: 2px solid #cccccc;
+}
+
+.summer .section-heading {
+  color: white;
+  background-color: #579453;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.autumn .section-heading {
+  color: white;
+  background-color: #bb733f;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.big-hero h1 {
+  margin-top: 24%;
+  margin-left: 27%;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  a:link {
+    color: white;
+    letter-spacing: 2px;
+  }
+  .content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 46%;
+  }
+
+  .big-hero {
+    background-size: contain;
+    background-image: url(../images/four-seasons-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+    font-size: 27px;
+    width: 100%;
+    margin-bottom: -270px;
+  }
+
+  .big-hero h1 {
+    margin-top: 55%;
+    margin-left: 25%;
+    color: white;
+  }
+
+  .main1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .main2 {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  .section-image {
+    max-width: 100%;
+    transform: scaleX(1.5);
+    overflow: hidden;
+    margin-top: -15;
+    padding-left: 13px;
+  }
+
+  .winter .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 990px;
+    background-color: white;
+    border: none;
+  }
+
+  .spring .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 990px;
+    background-color: white;
+    border: none;
+  }
+
+  .summer .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 990px;
+    background-color: white;
+    border: none;
+  }
+
+  .autumn .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 100%;
+    background-color: white;
+    border: none;
+  }
+
+  .section-content {
+    transform: scale(1.6);
+    font-size: 11px;
+    background-color: #f5f5f5;
+    margin-left: -0.5px;
+    margin-right: -3px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+  }
+
+  .winter .section-heading {
+    color: white;
+    background-color: #4f7aa5;
+    width: 990px;
+    margin-top: -2px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .spring .section-heading {
+    color: white;
+    background-color: #723660;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .summer .section-heading {
+    color: white;
+    background-color: #579453;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .autumn .section-heading {
+    color: white;
+    background-color: #bb733f;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+  a:link {
+    color: white;
+    letter-spacing: 2px;
+  }
+  .content-wrapper {
+    position: relative;
+  }
+
+  .main1 {
+    display: block;
+    width: 100%;
+
+    overflow: hidden;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .main2 {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .big-hero {
+    background-size: contain;
+    background-image: url(../images/four-seasons-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: -250px;
+  }
+
+  .big-hero h1 {
+    margin-top: 80%;
+    margin-left: 16%;
+    color: white;
+  }
+
+  .section-image {
+    max-width: 90%;
+    transform: scaleX(1.5);
+    overflow: hidden;
+    margin-top: -15;
+    padding-left: 13px;
+  }
+
+  .winter .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 900px;
+  }
+
+  .spring .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 990px;
+    background-color: white;
+    border: none;
+  }
+
+  .summer .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 990px;
+    background-color: white;
+    border: none;
+  }
+
+  .autumn .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 100%;
+    background-color: white;
+    border: none;
+  }
+
+  .section-content {
+    transform: scale(1.6);
+    font-size: 9px;
+    background-color: #f5f5f5;
+    margin-left: -0.5px;
+    margin-right: -3px;
+    margin-top: 13px;
+  }
+
+  .winter .section-heading {
+    color: white;
+    background-color: #4f7aa5;
+    width: 990px;
+    margin-top: -2px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .spring .section-heading {
+    color: white;
+    background-color: #723660;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .summer .section-heading {
+    color: white;
+    background-color: #579453;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  .autumn .section-heading {
+    color: white;
+    background-color: #bb733f;
+    width: 990px;
+    margin-top: -1px;
+    margin-right: -3px;
+    margin-left: -0.5px;
+    margin-bottom: -2px;
+  }
+
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 100%;
+  }
+}

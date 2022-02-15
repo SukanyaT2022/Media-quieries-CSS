@@ -1,0 +1,153 @@
+header {
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: block;
+}
+
+a:link {
+  color: white;
+}
+a {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content-wrapper {
+  position: relative;
+}
+.big-hero {
+  background-size: cover;
+  background-image: url(../images/winter-dark.jpg);
+  min-height: 100vh;
+  z-index: 1;
+  font-size: 42px;
+
+  margin: 0;
+  padding: 20px;
+  z-index: 2;
+  color: white;
+}
+
+.section-heading {
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  max-width: 1000px;
+}
+section.winter-animal {
+  border: 2px solid #4f7aa5;
+}
+.section-content {
+  padding: 1.4em;
+
+  width: 70%;
+}
+.section-image {
+  max-width: 30%;
+
+  display: block;
+  float: left;
+}
+section.winter-bridge {
+  border: 2px solid #4f7aa5;
+}
+section.winter-flower {
+  border: 2px solid #4f7aa5;
+}
+section.winter-sky {
+  border: 2px solid #4f7aa5;
+}
+.winter-animal .content-wrapper {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  display: flex;
+  flex-direction: row;
+  background-color: #5d7892;
+  border: 2px solid #4f7aa5;
+}
+.winter-bridge .content-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #5d7892;
+  border: 2px solid #4f7aa5;
+}
+.winter-flower .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #5d7892;
+  border: 2px solid #4f7aa5;
+}
+.winter-sky .content-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #5d7892;
+  border: 2px solid #4f7aa5;
+}
+section {
+  margin: 20px 20px 20px 20px;
+}
+.winter-animal .section-heading {
+  color: white;
+  background-color: #4f7aa5;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.winter-bridge .section-heading {
+  color: white;
+  background-color: #4f7aa5;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.winter-flower .section-heading {
+  color: white;
+  background-color: #4f7aa5;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.winter-sky .section-heading {
+  color: white;
+  background-color: #4f7aa5;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}

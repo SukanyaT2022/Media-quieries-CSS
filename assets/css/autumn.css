@@ -1,0 +1,156 @@
+header {
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: block;
+}
+
+a:link {
+  color: white;
+}
+a {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content-wrapper {
+  position: relative;
+}
+.big-hero {
+  background-size: cover;
+  background-image: url(../images/autumn-dark.jpg);
+  min-height: 100vh;
+  z-index: 1;
+  font-size: 42px;
+
+  margin: 0;
+  padding: 20px;
+  z-index: 2;
+  color: white;
+}
+
+.section-heading {
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  max-width: 1000px;
+}
+section.autumn-animal {
+  border: 2px solid #bb733f;
+}
+.section-content {
+  padding: 1.4em;
+
+  width: 70%;
+}
+.section-image {
+  max-width: 30%;
+
+  display: block;
+  float: left;
+}
+section.autumn-bridge {
+  border: 2px solid #bb733f;
+}
+section.autumn-flower {
+  border: 2px solid #bb733f;
+}
+section.autumn-sky {
+  border: 2px solid #bb733f;
+}
+
+.autumn-animal .content-wrapper {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  display: flex;
+  flex-direction: row;
+  background-color: #86581F;
+  border: 2px solid #bb733f;
+}
+.autumn-bridge .content-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #86581F;
+  border: 2px solid #bb733f;
+}
+.autumn-flower .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #86581F;
+  border: 2px solid #bb733f;
+}
+.autumn-sky .content-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 990px;
+  background-color: #86581F;
+  border: 2px solid #bb733f;
+}
+
+section {
+  margin: 20px 20px 20px 20px;
+}
+.autumn-animal .section-heading {
+  color: white;
+  background-color: #865836;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.autumn-bridge .section-heading {
+  color: white;
+  background-color: #865836;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.autumn-flower .section-heading {
+  color: white;
+  background-color: #865836;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.autumn-sky .section-heading {
+  color: white;
+  background-color: #865836;
+  text-align: center;
+  width: 990px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
